@@ -20,8 +20,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+  - {title: Mail, icon: envelope, url: "mailto:abuslang@users.noreply.github.com"}
+  - {title: Github, icon: github, url: "https://github.com/abuslang/blog"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
@@ -30,3 +30,15 @@ comments:
 
 plugins:
  - jekyll-feed
+ 
+ # GitHub pages configuration taken from https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
